@@ -29,9 +29,4 @@ public class Time {
         else{System.out.println("输入错误");}
         return result;
     }
-    public void show()
-    {
-       Time t = new Time();
-        System.out.println("停车时间为" + t.getTime());
-    }
 }

@@ -19,6 +19,6 @@ public class Car extends Vehicle{
             fee = seconds * 15;
         }
         else{System.out.println("时间错误");}
-        System.out.println("您本次停车时长为" + "   " +seconds + "时"+ "本次费用为" + fee);
+        System.out.println("您本次停车时长为" + seconds + "时"+ "本次费用为" + fee);
     }
 }
