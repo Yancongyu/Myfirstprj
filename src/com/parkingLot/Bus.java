@@ -3,7 +3,7 @@ package com.parkingLot;
 /**
  * Created by Administrator on 2017/5/23.
  */
-public class Bus extends Vehicle {
+public class Bus {
     double fee;
     public void getFee(double seconds){
         if(seconds > 0 && seconds < 2)
@@ -19,6 +19,6 @@ public class Bus extends Vehicle {
             fee = seconds * 19;
         }
         else{System.out.println("时间错误");}
-        System.out.println("您本次停车时长为" + seconds + "时"+ "本次费用为" + fee);
+        System.out.println("您本次Bus停车时长为" + seconds + "时"+ "本次费用为" + fee);
     }
 }
