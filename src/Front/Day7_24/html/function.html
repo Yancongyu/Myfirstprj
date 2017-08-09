@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+       window.onload=function () {
+           var b = document.getElementById("btn");
+           b.onclick=function () {
+               document.from1.txt.focus();
+           }
+           document.from1.txt.onfocus=function () {
+               this.select();
+           }
+       }
+    </script>
+</head>
+<body>
+    <button id="btn">选中</button>
+    <form name="from1">
+        <input type="text" name="txt" value="请输入您的信息">
+    </form>
+</body>
+</html>

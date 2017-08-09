@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript">
+    window.onload=function () {
+        var ul = document.getElementsByTagName("ul")[0];
+        var lis = ul.children;
+        lis[0].onmouseover=function () {
+            var cul = this.getElementsByTagName("ul")[0];
+            cul.style.display="block";
+        }
+        lis[0].onmouseleave = function () {
+            var cul = this.getElementsByTagName("ul")[0];
+            cul.style.display = "none";
+        }
+    }
+</script>
+    <!--<style type="text/css">-->
+        <!--#menu li{-->
+            <!--float:left;background:blue;border-right:solid white 1px-->
+        <!--}-->
+    <!--</style>-->
+</head>
+<body>
+    <ul id="menu" style="list-style:none;width:500px" type="circle">
+        <li>河北
+            <ul style="list-style:none;width:100px;float:none;display:none">
+                <li>秦皇岛</li>
+                <li>石家庄</li>
+                <li>仓漳</li>
+            </ul>
+        </li>
+        <li>吉林</li>
+        <li>辽宁</li>
+    </ul>
+</body>
+</html>

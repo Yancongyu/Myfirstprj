@@ -1,0 +1,30 @@
+#box{
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+#logo{
+    width: 800px;
+    height: 100px;
+    background-color: red;
+}
+#left{
+    float: left;
+    width: 100px;
+    height: 500px;
+    background-color: blue;
+}
+#main{
+    float: left;
+    width: 700px;
+    height: 500px;
+    background-color: pink;
+}
+/*.open{*/
+    /*margin-top: 50px;*/
+    /*border-top-color:#FF0;*/
+    /*border-right-color: #FF0;*/
+    /*border-bottom-color: #FF0;*/
+    /*border-left-color: #FF0;*/
+/*}*/
