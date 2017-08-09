@@ -3,7 +3,9 @@ package com.Course;
 /**
  * Created by Administrator on 2017/5/19.
  */
-public class Exercise {
+public class
+
+Exercise {
     public static void wrong (int number) throws ByteSizeException
     {
         if(number > 127 || number < -128)

@@ -1,4 +1,4 @@
-package com.SeinorCourse;
+package com.SeinorCourse.Rectangle;
 
 
 /**

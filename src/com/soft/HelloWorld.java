@@ -1,7 +1,7 @@
-package com.soft; /**
- * Created by Administrator on 2017/5/9.
- */
-    import java.util.Scanner;
+package com.soft;
+
+import java.util.Scanner;
+
     public class HelloWorld
     {
         public static void main(String[]args)
@@ -32,9 +32,9 @@ package com.soft; /**
                 }
                 sum = sum + num[i];
             }
-            System.out.println("\n" + "数组的最大值为" + max);
-            System.out.println("数组的最小值为" + min);
+            System.out.println("\n" + "最大值为" + max);
+            System.out.println("最小值为" + min);
             double avg = (double)sum/num.length;
-            System.out.println("数组的平均值为" + avg);
+            System.out.println("平均值为" + avg);
         }
     }
